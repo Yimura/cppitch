@@ -4,14 +4,15 @@ int main()
 {
     using namespace cppitch;
 
-    Logger* log = new Logger(Logger::LogLevel::Verbose);
+    g_log->set_log_level(Logger::LogLevel::Verbose);
+
     Download* download = new Download();
 
-    log->verbose("MAIN", "Attempting File Download...");
+    g_log->verbose("MAIN", "Attempting File Download...");
 
     download->download_file();
 
-    log->verbose("MAIN", "Downloaded file.");
+    g_log->verbose("MAIN", "Downloaded file.");
     
     return 0;
 }
