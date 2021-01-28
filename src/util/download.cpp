@@ -1,4 +1,4 @@
-#include "Download.hpp"
+#include "download.hpp"
 #include <curl_easy.h>
 #include <curl_ios.h>
 #include <curl_exception.h>

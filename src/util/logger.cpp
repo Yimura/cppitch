@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <stdio.h>
-#include "Logger.hpp"
+#include "logger.hpp"
 
 const char* blue = "\x1b[34m";
 const char* green = "\x1b[32m";
