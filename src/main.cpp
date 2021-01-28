@@ -1,5 +1,4 @@
-#include "src/util/Logger.hpp"
-#include "src/util/Download.hpp"
+#include "common.hpp"
 
 int main()
 {
