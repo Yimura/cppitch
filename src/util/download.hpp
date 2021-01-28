@@ -1,11 +1,14 @@
 #pragma once
 
-class Download
+namespace cppitch
 {
-private:
-public:
-    Download(/* args */);
-    ~Download();
+    class Download
+    {
+    private:
+    public:
+        Download(/* args */);
+        ~Download();
 
-    void download_file();
-};
+        void download_file();
+    };
+}
